@@ -1,0 +1,45 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "rEALtIME CHAT API BASED ON SOCKET TCP",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Augustin0/chat_app.git"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "realtime",
+    "socket",
+    "tcp",
+    "connection",
+    "mongo",
+    "atlas"
+  ],
+  "author": "Skenshee Augustin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Augustin0/chat_app/issues"
+  },
+  "homepage": "https://github.com/Augustin0/chat_app#readme",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/express-mongo-sanitize": "^2.1.0",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/mongoose": "^5.11.97",
+    "@types/nodemailer": "^6.4.9",
+    "@types/socket.io": "^3.0.2",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.4",
+    "socket.io": "^4.7.2"
+  }
+}
